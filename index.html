@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ipl </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;0,800;1,300;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <section id="topbar" class="d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info">
+            <span class="contact-bcci">
+            <img src="img/BCCI_logo.png" alt="">
+            <a href="#" class="top-btn"> BCCI.TV</a>
+            </span>
+            <span class="contact-woman-logo">
+            <img src="img/womens-premier-league-logo.svg" alt="">
+            </span>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+            <span class="icon-heading">Follow Us</span>
+            <a href="#" class="twitter">
+            <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#" class="instagram">
+            <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="facebook">
+            <i class="bi bi-facebook"></i>
+            </a>
+        </div>
+      </div>
+  </section>
+  <section id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+              <img src="img/ipl-logo-new-old.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Match</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Video</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li>
+                              <a class="dropdown-item" href="#">Latest Highlight</a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item" href="#">Another action</a>
+                          </li>
+                          <li>
+                              <hr class="dropdown-divider">
+                          </li>
+                          <li>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                          </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Stats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Point Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Teams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Fantasy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">More</a>
+                    </li>
+                  </ul>
+                  <div class="menu-right">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="" class="fan-poll d-short">
+                        <img src="img/fan-poll.svg" alt="">
+                        </a>
+                        <a href="" class="viewer-logo d-short">
+                        <img src="img/viewers-choice.svg" alt="">
+                        </a>
+                        <a href="#" class="twitter">
+                        <i class="bi bi-search"></i>
+                        </a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </nav>
+      </div>
+  </section>
+  <!--hero section-->
+  <section>
+      <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active newslider1" >
+              <div class="slider-part d-block w-100 slider-hgh">
+                <h2>Devon Conway Created a history hits 3 sixes</h2>
+                <div class="slider-flex">
+                 <p><span>29 May 2023 | 02:14 mins</span> 
+                  <span><i class="bi bi-eye-fill"></i> 11.6k </span></p> 
+                </div>
+                <div class="slider-btn d-flex">
+                    <a href="" class="play-btn">Play</a>
+                    <div class="share-icon">
+                      <i class="bi bi-share-fill"></i>
+                    </div>
+                  </div>          
+               </div>
+              <p class="d-block w-100 slider-hgh"></p>
+              </div>
+              <div class="carousel-item newslider2">
+                <div class="slider-part d-block w-100 slider-hgh">
+                  <h2>Devon Conway Created a history hits 3 sixes</h2>
+                  <div class="slider-flex">
+                  <p><span>29 May 2023 | 02:14 mins</span> 
+                    <span><i class="bi bi-eye-fill"></i> 11.6k </span></p> 
+                  </div>
+                  <div class="slider-btn d-flex">
+                      <a href="" class="play-btn">Play</a>
+                      <div class="share-icon">
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                      
+                </div>
+              </div>
+             </div>
+            <div class="carousel-item newslider3">
+              <div class="slider-part d-block w-100 slider-hgh">
+                <h2>Devon Conway Created a history hits 3 sixes</h2>
+                <div class="slider-flex">
+                 <p><span>29 May 2023 | 02:14 mins</span> 
+                  <span><i class="bi bi-eye-fill"></i> 11.6k </span></p> 
+                </div>
+                <div class="slider-btn d-flex">
+                    <a href="" class="play-btn">Play</a>
+                    <div class="share-icon">
+                      <i class="bi bi-share-fill"></i>
+                    </div>
+                    
+               </div>
+              <p class="d-block w-100 slider-hgh"></p>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+  <!-- stories-section-->
+  <section id="stories" class="pt-5 pb-5">
+      <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+            <h3 class="text-white"> Good Morning! </h3>
+            <p class="text-white short-text">Curated shorts for you</p>
+            <div class="col-sm-12 col-md-6 col-lg-1 boxset">
+              <div class="card">
+                  <img src="img/q1.jpg" class="card-img-top" alt="...">
+                  <div class="card-set">
+                    <p class="card-set-box">qualifier 2</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-1 boxset">
+              <div class="card">
+                  <img src="img/q1.jpg" class="card-img-top" alt="...">
+                  <div class="card-set">
+                    <p class="card-set-box">qualifier 2</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-1 boxset">
+              <div class="card">
+                  <img src="img/q1.jpg" class="card-img-top" alt="...">
+                  <div class="card-set">
+                    <p class="card-set-box">qualifier 2</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-1 boxset">
+              <div class="card">
+                  <img src="img/q1.jpg" class="card-img-top" alt="...">
+                  <div class="card-set">
+                    <p class="card-set-box">qualifier 2</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-1 boxset">
+              <div class="card">
+                  <img src="img/q1.jpg" class="card-img-top" alt="...">
+                  <div class="card-set">
+                    <p class="card-set-box">qualifier 2</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-1 boxset">
+              <div class="card">
+                  <img src="img/q1.jpg" class="card-img-top" alt="...">
+                  <div class="card-set">
+                    <p class="card-set-box">qualifier 2</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-1 boxset">
+              <div class="card">
+                  <img src="img/q1.jpg" class="card-img-top" alt="...">
+                  <div class="card-set">
+                    <p class="card-set-box">qualifier 2</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-1 boxset">
+              <div class="card">
+                  <img src="img/q1.jpg" class="card-img-top" alt="...">
+                  <div class="card-set">
+                    <p class="card-set-box">qualifier 2</p>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div>
+  </section>
+  <!-- statics-section-->
+  <section id="statics">
+      <div class="container-fluid mb-5">
+        <div class="container">
+            <div class="row">
+              <h3 class="text-center mt-5 mb-5">What Are You Looking For?</h3>
+              <div class="statics-box d-flex ps-5 justify-content-around">
+                  <div class="d-flex statics-box-created align-items-center">
+                    <a href="">
+                    <i class="bi bi-calendar-check"></i>Fixtures & Results </a>
+                    <span class="check-line"></span>
+                  </div>
+                  <div class="d-flex statics-box-created align-items-center">
+                    <a href="">
+                    <i class="bi bi-calendar-check"></i>Fixtures & Results </a>
+                    <span class="check-line"></span>
+                  </div>
+                  <div class="d-flex statics-box-created align-items-center">
+                    <a href="">
+                    <i class="bi bi-calendar-check"></i>Fixtures & Results </a>
+                    <span class="check-line"></span>
+                  </div>
+                  <div class="d-flex statics-box-created align-items-center">
+                    <a href="">
+                    <i class="bi bi-calendar-check"></i>Fixtures & Results </a>
+                    <span class="check-line"></span>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </section>
+  <!-- ticket-section-->
+  <section id="ticket-bg">
+      <a href="" target="_blank" rel="noopener noreferrer">
+      <img src="img/ticket_1920x600px-final.png" alt="" class="img-ticket">
+      </a>
+  </section>
+  <!-- Magic-moments section-->
+  <section id="magic-moment" class="mt-5">
+      <div class="container-fluid">
+        <div class="container">
+            <div class="row pt-5 pb-5">
+              <div class="heading d-flex justify-content-between">
+                  <h3 class="text-white">What Are You Looking For?</h3>
+                  <button class="see-more">See More</button>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card">
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p>
+                              <span>27 may 2023</span> | <span>
+                              <i class="bi bi-eye-fill"></i>
+                              </span>
+                              <span>16.6 k</span>
+                          </p>
+                          <p>02:12</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card">
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p>
+                              <span>27 may 2023</span> | <span>
+                              <i class="bi bi-eye-fill"></i>
+                              </span>
+                              <span>16.6 k</span>
+                          </p>
+                          <p>02:12</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card" >
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p>
+                              <span>27 may 2023</span> | <span>
+                              <i class="bi bi-eye-fill"></i>
+                              </span>
+                              <span>16.6 k</span>
+                          </p>
+                          <p>02:12</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card">
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p>
+                              <span>27 may 2023</span> | <span>
+                              <i class="bi bi-eye-fill"></i>
+                              </span>
+                              <span>16.6 k</span>
+                          </p>
+                          <p>02:12</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </section>
+  <!-- point table section-->
+  <section id="point-table">
+      <div class="container-fluid mt-5">
+        <div class="container">
+            <div class="heading-point d-flex justify-content-between">
+              <h3 class="text-black">Point Table</h3>
+              <span>
+              <i class="bi bi-arrow-right"></i>
+              </span>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-2 col-lg-3 extra-width">
+                  <div class="full-team-rank">
+                    <div class="number-title d-flex align-items-start justify-content-start">
+                        <div class="number-box">
+                          <span class="number-show">1</span>
+                          <div class="small-logo">
+                              <img src="img/qualified-home.png" alt="">
+                          </div>
+                        </div>
+                        <span class="name-show">GUJRAT Titans</span>
+                    </div>
+                    <div class="team-logo d-flex align-items-start justify-content-center">
+                        <div class="full-logo">
+                          <img src="img/GT.png" alt="">
+                        </div>
+                    </div>
+                    <div class="full-point-info d-flex justify-content-evenly">
+                        <div class="point-info info-similar">
+                          <p class="info-number">20</p>
+                          <p class="info-title">points</p>
+                        </div>
+                        <div class="player-info info-similar">
+                          <p class="info-number">14</p>
+                          <p class="info-title">player</p>
+                        </div>
+                        <div class="win-info info-similar">
+                          <p class="info-number">10</p>
+                          <p class="info-title">Won</p>
+                        </div>
+                        <div class="nrr-info info-similar">
+                          <p class="info-number gts">0.809</p>
+                          <p class="info-title">NRR</p>
+                        </div>
+                    </div>
+                    <div class="winner-symbol ps-2">
+                        <h5 class="form-hd">Recent form</h5>
+                        <div class="full-point-info d-flex">
+                          <span class="win">W</span>
+                          <span class="win">W</span>
+                          <span class="lose">L</span>
+                          <span class="lose">L</span>
+                          <span class="lose">L</span>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-2 col-lg-3 extra-width">
+                  <div class="full-team-rank">
+                    <div class="number-title d-flex align-items-start justify-content-start">
+                        <div class="number-box">
+                          <span class="number-show">1</span>
+                          <div class="small-logo">
+                              <img src="img/qualified-home.png" alt="">
+                          </div>
+                        </div>
+                        <span class="name-show">GUJRAT Titans</span>
+                    </div>
+                    <div class="team-logo d-flex align-items-start justify-content-center">
+                        <div class="full-logo">
+                          <img src="img/GT.png" alt="">
+                        </div>
+                    </div>
+                    <div class="full-point-info d-flex justify-content-evenly">
+                        <div class="point-info info-similar">
+                          <p class="info-number">20</p>
+                          <p class="info-title">points</p>
+                        </div>
+                        <div class="player-info info-similar">
+                          <p class="info-number">14</p>
+                          <p class="info-title">player</p>
+                        </div>
+                        <div class="win-info info-similar">
+                          <p class="info-number">10</p>
+                          <p class="info-title">Won</p>
+                        </div>
+                        <div class="nrr-info info-similar">
+                          <p class="info-number gts">0.809</p>
+                          <p class="info-title">NRR</p>
+                        </div>
+                    </div>
+                    <div class="winner-symbol ps-2">
+                        <h5 class="form-hd">Recent form</h5>
+                        <div class="full-point-info d-flex">
+                          <span class="win">W</span>
+                          <span class="win">W</span>
+                          <span class="lose">L</span>
+                          <span class="win">W</span>
+                          <span class="win">W</span>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-2 col-lg-3 extra-width">
+                  <div class="full-team-rank">
+                    <div class="number-title d-flex align-items-start justify-content-start">
+                        <div class="number-box">
+                          <span class="number-show">1</span>
+                          <div class="small-logo">
+                              <img src="img/qualified-home.png" alt="">
+                          </div>
+                        </div>
+                        <span class="name-show">GUJRAT Titans</span>
+                    </div>
+                    <div class="team-logo d-flex align-items-start justify-content-center">
+                        <div class="full-logo">
+                          <img src="img/GT.png" alt="">
+                        </div>
+                    </div>
+                    <div class="full-point-info d-flex justify-content-evenly">
+                        <div class="point-info info-similar">
+                          <p class="info-number">20</p>
+                          <p class="info-title">points</p>
+                        </div>
+                        <div class="player-info info-similar">
+                          <p class="info-number">14</p>
+                          <p class="info-title">player</p>
+                        </div>
+                        <div class="win-info info-similar">
+                          <p class="info-number">10</p>
+                          <p class="info-title">Won</p>
+                        </div>
+                        <div class="nrr-info info-similar">
+                          <p class="info-number gts">0.809</p>
+                          <p class="info-title">NRR</p>
+                        </div>
+                    </div>
+                    <div class="winner-symbol ps-2">
+                        <h5 class="form-hd">Recent form</h5>
+                        <div class="full-point-info d-flex">
+                          <span class="win">W</span>
+                          <span class="win">W</span>
+                          <span class="lose">L</span>
+                          <span class="lose">W</span>
+                          <span class="lose">W</span>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-2 col-lg-3 extra-width">
+                  <div class="full-team-rank">
+                    <div class="number-title d-flex align-items-start justify-content-start">
+                        <div class="number-box">
+                          <span class="number-show">1</span>
+                          <div class="small-logo">
+                              <img src="img/qualified-home.png" alt="">
+                          </div>
+                        </div>
+                        <span class="name-show">GUJRAT Titans</span>
+                    </div>
+                    <div class="team-logo d-flex align-items-start justify-content-center">
+                        <div class="full-logo">
+                          <img src="img/GT.png" alt="">
+                        </div>
+                    </div>
+                    <div class="full-point-info d-flex justify-content-evenly">
+                        <div class="point-info info-similar">
+                          <p class="info-number">20</p>
+                          <p class="info-title">points</p>
+                        </div>
+                        <div class="player-info info-similar">
+                          <p class="info-number">14</p>
+                          <p class="info-title">player</p>
+                        </div>
+                        <div class="win-info info-similar">
+                          <p class="info-number">10</p>
+                          <p class="info-title">Won</p>
+                        </div>
+                        <div class="nrr-info info-similar">
+                          <p class="info-number gts">0.809</p>
+                          <p class="info-title">NRR</p>
+                        </div>
+                    </div>
+                    <div class="winner-symbol ps-2">
+                        <h5 class="form-hd">Recent form</h5>
+                        <div class="full-point-info d-flex">
+                          <span class="win">W</span>
+                          <span class="win">W</span>
+                          <span class="lose">L</span>
+                          <span class="lose">W</span>
+                          <span class="lose">W</span>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="show-btn">
+                  <div class="button-box">
+                    <a href="" class="show-point-bt">Full Point Button</a>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </section>
+  <!-- latest video section-->
+  <section id="latest-video" class="mt-5">
+      <div class="container-fluid">
+        <div class="container">
+            <div class="row pt-5 pb-5">
+              <div class="heading d-flex justify-content-between">
+                  <h3 class="text-white">Latest Video</h3>
+                  <button class="see-more">See More</button>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card">
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body lts-news">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p class="lts-news">
+                              <span>27 may 2023</span> | <span>
+                              <i class="bi bi-eye-fill"></i>
+                              </span>
+                              <span>16.6 k</span>
+                          </p>
+                          <p class="lts-news">02:12</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card">
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body lts-news">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p class="lts-news">
+                              <span>27 may 2023</span> | <span>
+                              <i class="bi bi-eye-fill"></i>
+                              </span>
+                              <span>16.6 k</span>
+                          </p>
+                          <p class="lts-news">02:12</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card">
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body lts-news">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p class="lts-news">
+                              <span>27 may 2023</span> | <span>
+                              <i class="bi bi-eye-fill"></i>
+                              </span>
+                              <span>16.6 k</span>
+                          </p>
+                          <p class="lts-news">02:12</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card">
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body lts-news">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p class="lts-news">
+                              <span>27 may 2023</span> | <span>
+                              <i class="bi bi-eye-fill"></i>
+                              </span>
+                              <span>16.6 k</span>
+                          </p>
+                          <p class="lts-news">02:12</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </section>
+  <!-- latest news section-->
+  <section id="latest-news">
+      <div class="container-fluid">
+        <div class="container">
+            <div class="row pt-5 pb-5">
+              <div class="heading d-flex justify-content-between">
+                  <h3 class="text-white">Latest News</h3>
+                  <button class="see-more">See More</button>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card">
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body lts-news">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p class="lts-news">
+                              <span>27 may 2023</span>
+                          </p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card">
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body lts-news">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p class="lts-news">
+                              <span>27 may 2023</span>
+                          </p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card">
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body lts-news">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p class="lts-news">
+                              <span>27 may 2023</span>
+                          </p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-sm-12 col-lg-3 pt-5">
+                  <div class="card">
+                    <img class="card-img-top" src="img/moment1.jpg" alt="Card image cap">
+                    <span class="play-btn">
+                    <i class="bi bi-play"></i>
+                    </span>
+                    <div class="card-body lts-news">
+                        <ul class="d-flex card-list">
+                          <li>
+                              <h5 class="card-title">Majestic Mohit stuns MI with match-turning spell of 5/10</h5>
+                          </li>
+                          <li>
+                              <i class="bi bi-share-fill"></i>
+                          </li>
+                        </ul>
+                        <div class="time-show d-flex justify-content-between">
+                          <p class="lts-news">
+                              <span>27 may 2023</span>
+                          </p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </section>
+  <!-- Top perfomance-->
+  <section id="top-perfomance">
+      <div class="full-wrap">
+        <div class="container">
+            <div class="heading d-flex justify-content-between">
+              <h3 class="text-white">Top Performers</h3>
+              <button class="see-more">See More</button>
+            </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="inside-story">
+          <div class="top-images">
+            <div class="row">
+              
+                <div class="col-lg-3">
+                  <img src="img/player1.png" alt="" class="img1">
+                </div>
+                <div class="col-lg-6">
+                  <div class="per-full-per-box d-flex">
+                      <img src="img/player2.png" alt="" class="img2">
+                      
+                      <div class="per-number">
+                        
+                        <span class="number-rank">1</span>
+                      </div>
+                      <div class="per-number">
+                          <div class="peromance-title"><div class="peromance-title-inner"><img src="img/purple-cap.png"><span class="purple">Armaco Purple Cap</span></div></div>
+                        <p class="mhd">Mohammad</p>
+                        <h2 class="sub-mhd">SHAMI</h2>
+                        <h5>
+                            <span class="per-states">28</span>
+                            <span class="per-wickets">WICKETS</span>
+                        </h5>
+                        <div class="top-per-box d-flex justify-content-evenly">
+                            <div class="top-info info-similar">
+                              <p class="top-per-number">M</p>
+                              <p class="top-per-title">16</p>
+                            </div>
+                            <div class="top-info info-similar">
+                              <p class="top-per-number">WK</p>
+                              <p class="top-per-title">28</p>
+                            </div>
+                            <div class="top-info info-similar">
+                              <p class="top-per-number">Eco</p>
+                              <p class="top-per-title">7.95</p>
+                            </div>
+                            <div class="top-info info-similar">
+                              <p class="top-per-number">BBI</p>
+                              <p class="top-per-title">4/11</p>
+                            </div>
+                            <div class="top-info info-similar">
+                              <p class="top-per-number">4/5W</p>
+                              <p class="top-per-title">2/0</p>
+                            </div>
+                        </div>
+                        <button class="btn-set-ld">Full Leadership</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <img src="img/player3.png" alt="" class="img3">
+                </div>
+            </div>
+          </div>
+        <div>
+      </div>
+  </section>
+  <!-- slider box-->
+<section id="slider-box">
+  <div class="container pt-5">
+      <div class="heading">
+        <h2 class="text-white">2023 In Numbers</h2>
+      </div>
+  </div>
+  <div class="container">
+      <div class="row  pt-5">
+          <div class="col-lg-3 col-sm-1">
+              <div id="topbox" class="carousel slide">
+                  <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#topbox" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#topbox" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#topbox" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active onlybg getchange">
+                          <div class="slider-inside d-block w-100 ">
+                            <h4>2145</h4>
+                            <p>Fours</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item onlybg getchange">
+                          <div class="slider-inside d-block w-100 ">
+                            <h4>2145</h4>
+                            <p>Fours</p>
+
+                          </div>
+                      </div>
+                      <div class="carousel-item onlybg getchange">
+                        <div class="slider-inside d-block w-100 ">
+                            <h4>2145</h4>
+                            <p>Fours</p>
+
+                          </div>
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#topbox" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#topbox" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+          <div class="col-lg-6 col-sm-1">
+                <div id="sliderbox" class="carousel slide">
+                  <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#sliderbox" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#sliderbox" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#sliderbox" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/2008.png" class="d-block w-100 getchange" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/2002.png" class="d-block w-100 getchange" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/2002.png" class="d-block w-100 getchange" alt="...">
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#sliderbox" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#sliderbox" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+          <div class="col-lg-3 col-sm-1">
+            <div id="rightbox" class="carousel slide">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#rightbox" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#rightbox" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#rightbox" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active onlybg getchange">
+                      <div class="slider-inside d-block w-100 ">
+                        <h4>2145</h4>
+                        <p>Fours</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item onlybg getchange">
+                      <div class="slider-inside d-block w-100 ">
+                        <h4>2145</h4>
+                        <p>Fours</p>
+
+                      </div>
+                  </div>
+                  <div class="carousel-item onlybg getchange">
+                    <div class="slider-inside d-block w-100 ">
+                        <h4>2145</h4>
+                        <p>Fours</p>
+
+                      </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#rightbox" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#rightbox" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+      </div>
+      <div class="row pt-5">
+          <div class="col-lg-6 col-sm-1">
+              <div id="bottomleft" class="carousel slide">
+                  <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#bottomleft" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#bottomleft" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#bottomleft" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active changesliderbg getchange">
+                          <div class="slider-showimg d-block w-100 ">
+                              <div class="class forflex d-flex text-white">
+                                <img src="img/player1.png" alt="">
+                                <div class="showstrikerate">
+                                    <p class="namecricketer">Shubnam Gill</p>
+                                  
+                                    <p class="d-flex justify-content-between"><span class="cmn-box">Total Wickets</span><span class="cmnrgt-box">28</span></p>
+                                    <p class="d-flex justify-content-between"><span class="cmn-box">Averge</span> <span class="cmnrgt-box">156.43</span></p>
+                                    <p class="d-flex justify-content-between"><span class="cmn-box">Match Plyed</span><span class="cmnrgt-box">16</span></p>
+                                </div>
+                              </div>
+                          
+                          </div>
+                        
+                      </div>
+                      <div class="carousel-item changesliderbg2 getchange">
+                        <div class="slider-showimg d-block w-100 ">
+                          <div class="class forflex d-flex text-white">
+                            <img src="img/player2.png" alt="">
+                            <div class="showstrikerate">
+                                <p class="namecricketer">Mohammad Shami</p>
+                              
+                                <p class="d-flex justify-content-between"><span class="cmn-box">Total Wickets</span><span class="cmnrgt-box">28</span></p>
+                                <p class="d-flex justify-content-between"><span class="cmn-box">Averge</span> <span class="cmnrgt-box">156.43</span></p>
+                                <p class="d-flex justify-content-between"><span class="cmn-box">Match Plyed</span><span class="cmnrgt-box">16</span></p>
+                            </div>
+                          </div>
+                      
+                      </div>
+                      </div>
+                      <div class="carousel-item changesliderbg getchange">
+                        <div class="slider-showimg d-block w-100 ">
+                          <div class="class forflex d-flex text-white">
+                            <img src="img/player1.png" alt="">
+                            <div class="showstrikerate">
+                                <p class="namecricketer">Mohammad Shami</p>
+                              
+                                <p class="d-flex justify-content-between"><span class="cmn-box">Total Wickets</span><span class="cmnrgt-box">28</span></p>
+                                <p class="d-flex justify-content-between"><span class="cmn-box">Averge</span> <span class="cmnrgt-box">156.43</span></p>
+                                <p class="d-flex justify-content-between"><span class="cmn-box">Match Plyed</span><span class="cmnrgt-box">16</span></p>
+                            </div>
+                          </div>
+                      
+                      </div>
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#bottomleft" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#bottomleft" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+        <div class="col-lg-6 col-sm-1">
+          <div id="bottomright" class="carousel slide">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#bottomright" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#bottomright" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#bottomright" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active changesliderbg getchange">
+                      <div class="slider-showimg d-block w-100 ">
+                          <div class="class forflex d-flex text-white">
+                            <img src="img/player1.png" alt="">
+                            <div class="showstrikerate">
+                                <p class="namecricketer">Shubnam Gill</p>
+                               
+                                <p class="d-flex justify-content-between"><span class="cmn-box">Total Wickets</span><span class="cmnrgt-box">28</span></p>
+                                <p class="d-flex justify-content-between"><span class="cmn-box">Averge</span> <span class="cmnrgt-box">156.43</span></p>
+                                <p class="d-flex justify-content-between"><span class="cmn-box">Match Plyed</span><span class="cmnrgt-box">16</span></p>
+                            </div>
+                          </div>
+                       
+                      </div>
+                     
+                  </div>
+                  <div class="carousel-item changesliderbg2 getchange">
+                    <div class="slider-showimg d-block w-100 ">
+                      <div class="class forflex d-flex text-white">
+                        <img src="img/player2.png" alt="">
+                        <div class="showstrikerate">
+                            <p class="namecricketer">Mohammad Shami</p>
+                           
+                            <p class="d-flex justify-content-between"><span class="cmn-box">Total Wickets</span><span class="cmnrgt-box">28</span></p>
+                            <p class="d-flex justify-content-between"><span class="cmn-box">Averge</span> <span class="cmnrgt-box">156.43</span></p>
+                            <p class="d-flex justify-content-between"><span class="cmn-box">Match Plyed</span><span class="cmnrgt-box">16</span></p>
+                        </div>
+                      </div>
+                   
+                  </div>
+                  </div>
+                  <div class="carousel-item changesliderbg getchange">
+                    <div class="slider-showimg d-block w-100 ">
+                      <div class="class forflex d-flex text-white">
+                        <img src="img/player1.png" alt="">
+                        <div class="showstrikerate">
+                            <p class="namecricketer">Mohammad Shami</p>
+                           
+                            <p class="d-flex justify-content-between"><span class="cmn-box">Total Wickets</span><span class="cmnrgt-box">28</span></p>
+                            <p class="d-flex justify-content-between"><span class="cmn-box">Averge</span> <span class="cmnrgt-box">156.43</span></p>
+                            <p class="d-flex justify-content-between"><span class="cmn-box">Match Plyed</span><span class="cmnrgt-box">16</span></p>
+                        </div>
+                      </div>
+                   
+                  </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#bottomright" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#bottomright" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+         </div>
+      </div>
+      <div class="row pt-5 pb-5">
+          <div class="col-sm-12 col-lg-2">
+            <div class="icon-with-img">
+              <img src="img/pic (1).svg" alt="">
+              <p>Pics</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6">
+            <div class="icon-with-img middle-box">
+              <h2>Interesting Facts</h2>
+              <p class="img-par"">" Rohit Sharma and Shane Watson are the only two players to score a century and claim a hat-trick in the IPL."</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-2">
+            <div class="icon-with-img bg-check">
+              <img src="img/match-report-icon.svg" alt="">
+              <p>Match Reports</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-2">
+            <div class="icon-with-img bg-check">
+              <img src="img/highlight.svg" alt="">
+              <p>Highlights</p>
+            </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!----carosal card-->
+<section id ="carosal-card" class="">
+  <div class="carosal-inner pt-   5 pb-5">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card card-img-set">
+                                        
+                                        <div class="card-body">
+                                          <div class="match-number">
+                                            <span class="toprated">Match 65</span>
+                                          </div>
+                                          <div class="cardfox d-flex justify-content-between">
+                                              <div class="teamscore d-flex">
+                                               <img src="img/SRH.png" alt="" class="teamscoreimg">
+                                                <div class="score-box">
+                                                  <p class="score">186/5</p>
+                                                  <p class="over">20.0 overs</p>
+                                                </div> 
+                                              </div>
+                                              <div class="vs-class">
+                                                <img src="img/vs.png" alt="" class="teamscoreimg">
+                                                </div>
+                                                <div class="teamscore d-flex">
+                                                
+                                                   <div class="score-box">
+                                                     <p class="score">186/5</p>
+                                                     <p class="over">20.0 overs</p>
+                                                   </div> 
+                                                   <img src="img/SRH.png" alt="" class="teamscoreimg">
+                                                 </div>
+                                          </div>
+                                          <div class="cardfox">
+                                            <h4 class="card-title">Royal Challengers Bangalore Won by 8  Wickets </h4>
+                                          </div>  
+                                          <div class="cardfox">
+                                            <p class="card-par">Rajiv Gandhi International Stadium, Hyderabad</p>
+                                            <p class="card-par-sub">18 MAY 2023 , 7:30 pm IST </p>
+                                          </div>
+                                          <div class="cardfox player-setting">
+                                            <div class="player-show d-flex justify-content-center">
+                                                <img src="img/2.png" alt="">
+                                                <div class="full-player-detail">
+                                                  <p class="player-name">Virat Kohli </p>
+                                                  <p class="player-run">Runs: 100(63) </p>
+                                                  <a href="" target="_blank" rel="noopener noreferrer" class="player-btn">Player of the Match</a>
+                                                </div>
+                                            </div>
+                                          </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                  <div class="card card-img-set">
+                                      
+                                      <div class="card-body">
+                                        <div class="match-number">
+                                          <span class="toprated">Match 65</span>
+                                        </div>
+                                        <div class="cardfox d-flex justify-content-between">
+                                            <div class="teamscore d-flex">
+                                             <img src="img/SRH.png" alt="" class="teamscoreimg">
+                                              <div class="score-box">
+                                                <p class="score">186/5</p>
+                                                <p class="over">20.0 overs</p>
+                                              </div> 
+                                            </div>
+                                            <div class="vs-class">
+                                              <img src="img/vs.png" alt="" class="teamscoreimg">
+                                              </div>
+                                              <div class="teamscore d-flex">
+                                              
+                                                 <div class="score-box">
+                                                   <p class="score">186/5</p>
+                                                   <p class="over">20.0 overs</p>
+                                                 </div> 
+                                                 <img src="img/SRH.png" alt="" class="teamscoreimg">
+                                               </div>
+                                        </div>
+                                        <div class="cardfox">
+                                          <h4 class="card-title">Royal Challengers Bangalore Won by 8  Wickets </h4>
+                                        </div>  
+                                        <div class="cardfox">
+                                          <p class="card-par">Rajiv Gandhi International Stadium, Hyderabad</p>
+                                          <p class="card-par-sub">18 MAY 2023 , 7:30 pm IST </p>
+                                        </div>
+                                        <div class="cardfox player-setting">
+                                          <div class="player-show d-flex justify-content-center">
+                                              <img src="img/2.png" alt="">
+                                              <div class="full-player-detail">
+                                                <p class="player-name">Virat Kohli </p>
+                                                <p class="player-run">Runs: 100(63) </p>
+                                                <a href="" target="_blank" rel="noopener noreferrer" class="player-btn">Player of the Match</a>
+                                              </div>
+                                          </div>
+                                        </div>
+
+                                      </div>
+
+                                  </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                <div class="card card-img-set">
+                                    
+                                    <div class="card-body">
+                                      <div class="match-number">
+                                        <span class="toprated">Match 65</span>
+                                      </div>
+                                      <div class="cardfox d-flex justify-content-between">
+                                          <div class="teamscore d-flex">
+                                           <img src="img/SRH.png" alt="" class="teamscoreimg">
+                                            <div class="score-box">
+                                              <p class="score">186/5</p>
+                                              <p class="over">20.0 overs</p>
+                                            </div> 
+                                          </div>
+                                          <div class="vs-class">
+                                            <img src="img/vs.png" alt="" class="teamscoreimg">
+                                            </div>
+                                            <div class="teamscore d-flex">
+                                            
+                                               <div class="score-box">
+                                                 <p class="score">186/5</p>
+                                                 <p class="over">20.0 overs</p>
+                                               </div> 
+                                               <img src="img/SRH.png" alt="" class="teamscoreimg">
+                                             </div>
+                                      </div>
+                                      <div class="cardfox">
+                                        <h4 class="card-title">Royal Challengers Bangalore Won by 8  Wickets </h4>
+                                      </div>  
+                                      <div class="cardfox">
+                                        <p class="card-par">Rajiv Gandhi International Stadium, Hyderabad</p>
+                                        <p class="card-par-sub">18 MAY 2023 , 7:30 pm IST </p>
+                                      </div>
+                                      <div class="cardfox player-setting">
+                                        <div class="player-show d-flex justify-content-center">
+                                            <img src="img/2.png" alt="">
+                                            <div class="full-player-detail">
+                                              <p class="player-name">Virat Kohli </p>
+                                              <p class="player-run">Runs: 100(63) </p>
+                                              <a href="" target="_blank" rel="noopener noreferrer" class="player-btn">Player of the Match</a>
+                                            </div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- app store section-->
+<section id="app-store">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-6 text-white pt-5 pb-5">
+            <div class="inside-box">
+                <h2 class="app-heading">Get the official IPL App</h2>
+                <p class="par-box">Get the latest scores on the go. Find the latest content, including match highlights, press conferences and recap all at your fingertips by downloading the official IPL app.</p>
+                <p class="par-box">Available on both App store and Playstore.</p>
+                <p class="par-box">Download here for free.</p>
+            </div>
+            <div class="double-btn">
+              <img src="img/play-store.png" alt="">
+              <img src="img/app-store.png" alt="">
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6 text-white check-png">
+            <img src="img/hand-mobile.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+ <!-- logo section-->
+ <section >
+    <div class="logo-center text-center logo-set">
+      <p>TITLE SPONSOR</p>
+      <img src="img/1644520414_tata-logo.png" alt="">
+    </div>
+    <div class="container-fluid bg-now">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-sm-12 col-lg-4">
+              <p class="sp-heading top-sp-box">TITLE SPONSOR</p>
+              <div class="logo-sponser logo-same">
+                <img src="img/1646835698_dream11.png" alt="">
+                <img src="img/1678119494_Cred.png" alt="">
+                <img src="img/1678119570_Upstox.png" alt="">
+               </div>
+               <div class="logo-sponser logo-same">
+                <img src="img/1679731178_Rupay.png" alt="">
+                <img src="img/1679731219_saudi-new-logo.png" alt="">
+                <img src="img/1680102806_herballife.png" alt="">
+               </div>
+              
+              
+            </div>
+            <div class="col-sm-12 col-lg-8">
+             <div class="parter d-flex">
+                <div class="logo-sponser logo-title-img">
+                  <p class="sp-heading">OFFICIAL ORANGE CAP
+                    AND PURPLE CAP PARTNER</p>
+                  <img src="img/1647964934_aramco.png" alt="">
+                </div>
+                <div class="logo-sponser logo-title-img">
+                  <p class="sp-heading">OFFICIAL UMPIRE<br>
+                    PARTNER</p>
+                  <img src="img/1633588474_sponsor-paytm.webp" alt="" class="paytm">
+                </div>
+                <div class="logo-sponser logo-title-img">
+                  <p class="sp-heading">OFFICIAL STRATEGIC
+                    TIMEOUT PARTNER</p>
+                  <img src="img/1633588547_sponsor-ceat.webp" alt="" class="paytm">
+                </div>
+                <div class="logo-sponser logo-title-img">
+                  <p class="sp-heading">OFFICIAL<br>
+                    BROADCASTER</p>
+                  <img src="img/1680104749_StarSports_Logo-Tagline 3.png" alt="" class="star">
+                </div>
+                <div class="logo-sponser logo-title-img">
+                  <p class="sp-heading">OFFICIAL DIGITAL
+                    STREAMING PARTNER</p>
+                  <img src="img/1671017722_Jio CinemaAsset 2 1.png" alt="" class="star">
+                </div>
+             </div>
+              
+            </div>
+           
+          </div>
+        </div>
+    </div>
+ </section>
+ <!-- footer section box-->
+ <footer id="footer" class="pt-5 text-white" >
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-3">
+          <div class="footer1 common-box">
+            <h2>Team</h2>
+            <ul class="footer-list">
+              <a href=""><li>Chennai Super Kings</li></a>
+              <a href=""><li>Chennai Super Kings</li></a>
+              <a href=""><li>Chennai Super Kings</li></a>
+              <a href=""><li>Chennai Super Kings</li></a>
+              <a href=""><li>Chennai Super Kings</li></a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <div class="footer1 common-box">
+            <h2>About</h2>
+            <ul class="footer-list">
+              <a href=""><li>About Us</li></a>
+              <a href=""><li>Anti Corruption Policy</li></a>
+              <a href=""><li>Anti Doping Policys</li></a>
+              <a href=""><li>TUE Application Form</li></a>
+              <a href=""><li>Anti Discrimination Policy</li></a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <div class="footer1 common-box">
+            <h2>Guidelines</h2>
+            <ul class="footer-list">
+              <a href=""><li>IPL Code Of Conduct For Match Officials</li></a>
+              <a href=""><li>Brand And Protection Guidelines</li></a>
+              <a href=""><li>Governing Council</li></a>
+              <a href=""><li>Suspect Action Policy</li></a>
+              <a href=""><li>PMOA Minimum Standard</li></a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <div class="footer1 common-box">
+            <h2>CONTACT</h2>
+            <ul class="footer-list">
+              <a href=""><li>Contact Us</li></a>
+              <a href=""><li>Sponsorship</li></a>
+              <a href=""><li>Policy </li></a>
+              <a href=""><li>Privacy</li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+ </footer>
+ <!-- copyright section-->
+ <section id="copyright">
+<div class="container-fluid">
+  <div class="container">
+    <div class="text-box">
+      <p>Copyright © IPL 2023 All Rights Reserved.</p>
+    </div>
+  </div>
+</div>
+ </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="	https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  </body>
+</html>
